@@ -18,18 +18,20 @@ namespace Plugin.MediaManager
         /// <summary>
         /// Current plugin implementation to use
         /// </summary>
-        public static IMediaManager Current
-        {
-            get
-            {
-                IMediaManager ret = implementation.Value;
-                if (ret == null)
-                {
-                    throw NotImplementedInReferenceAssembly();
-                }
-                return ret;
-            }
-        }
+        /// 
+        //public static IMediaManager Current
+        //{
+        //    get
+        //    {
+        //        IMediaManager ret = implementation.Value;
+        //        if (ret == null)
+        //        {
+        //            throw NotImplementedInReferenceAssembly();
+        //        }
+        //        return ret;
+        //    }
+        //}
+        public static IMediaManager Current;
 
         static IMediaManager CreateMediaManager()
         {
