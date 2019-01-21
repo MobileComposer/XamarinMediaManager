@@ -409,7 +409,10 @@ namespace Plugin.MediaManager.Abstractions.Implementations
             if (disposing)
             {
                 // Free any other managed objects here.
-                RemoveEventHandlers();
+                if (_currentPlaybackManager != null)
+                {
+                    RemoveEventHandlers();
+                }
             }
 
             // Free any unmanaged objects here.
