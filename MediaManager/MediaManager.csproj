@@ -72,5 +72,10 @@
     <Compile Include="Platforms\Xamarin\**\*.cs" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Reference Include="MediaManager.Forms">
+      <HintPath>..\..\..\..\..\Downloads\XamarinMediaManager-develop\Samples\Forms\Lib\MediaManager.Forms.dll</HintPath>
+    </Reference>
+  </ItemGroup>
   <Import Project="$(MSBuildSDKExtrasTargets)" Condition="Exists('$(MSBuildSDKExtrasTargets)')" />
 </Project>

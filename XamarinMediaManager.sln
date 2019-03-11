@@ -9,11 +9,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MediaManager.Droid", "Media
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MediaManager.iOS", "MediaManager.iOS\MediaManager.iOS.csproj", "{FEA28D0F-B98D-457B-951F-69AB74617B83}"
 EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "MediaManager.Demo", "MediaManager.Demo\MediaManager.Demo.shproj", "{684CA4AB-180A-4C32-8BE3-5562DB4B35F5}"
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MediaManager.Demo.Android", "MediaManager.Demo.Android\MediaManager.Demo.Android.csproj", "{BD962BCB-02E4-46C4-85C7-D1BD7D3CA01C}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MediaManager.Demo.iOS", "MediaManager.Demo.iOS\MediaManager.Demo.iOS.csproj", "{0B65152F-346C-4D30-81F0-0F35D1F4C384}"
-EndProject
-Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "MediaManager.Demo", "MediaManager.Demo\MediaManager.Demo.shproj", "{684CA4AB-180A-4C32-8BE3-5562DB4B35F5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

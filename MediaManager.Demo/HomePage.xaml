@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage x:Class="MediaManager.Demo.HomePage"
+             xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml">
+    <ContentPage.Content>
+        <StackLayout Orientation="Vertical">
+            <StackLayout VerticalOptions="Start">
+                <Button x:Name="mainBtn"
+                        Clicked="MainBtn_OnClicked"
+                        Text="Click here to view a video" />
+                <Button Clicked="PlayAudio_OnClicked" Text="Play Audio (Show ID3 Metadata)" />
+                <Button Clicked="PlayAudioMyTrack_OnClicked" Text="Play Audio (Show User Metadata)" />
+                <Button Clicked="PlaylistButton_OnClicked" Text="Play Audio List" />
+                <Button Clicked="StopButton_OnClicked" Text="Stop Audio" />
+            </StackLayout>
+            <StackLayout Grid.Row="2"
+                         VerticalOptions="End"
+                         Orientation="Horizontal">
+                <Label x:Name="volumeLabel"
+                       HorizontalOptions="Start"
+                       Text="Volume (0-100):" />
+                <Entry x:Name="volumeEntry"
+                       WidthRequest="100"
+                       HorizontalOptions="StartAndExpand"
+                       Keyboard="Numeric"
+                       Text="50" />
+                <Button x:Name="setVolumeBtn"
+                        HorizontalOptions="Start"
+                        Clicked="SetVolumeBtn_OnClicked"
+                        Text="Set Volume" />
+                <Button x:Name="mutedBtn"
+                        HorizontalOptions="End"
+                        Clicked="MutedBtn_OnClicked"
+                        Text="Mute" />
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

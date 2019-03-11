@@ -24,8 +24,6 @@
 	<string>8.0</string>
 	<key>CFBundleDisplayName</key>
 	<string>MediaManager.Demo</string>
-	<key>CFBundleIdentifier</key>
-	<string>net.poniverse.MediaManager-Demo</string>
 	<key>CFBundleVersion</key>
 	<string>1.0</string>
 	<key>UILaunchStoryboardName</key>
@@ -47,5 +45,7 @@
 	<array>
 		<string>audio</string>
 	</array>
+	<key>CFBundleIdentifier</key>
+	<string>com.kineticlegacy.andelin</string>
 </dict>
 </plist>

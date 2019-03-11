@@ -1,4 +1,5 @@
 using System;
+using Plugin.MediaManager.Forms;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -9,9 +10,12 @@ namespace MediaManager.Demo
     {
         public App()
         {
+            // Make sure it doesn't get stripped away by the linker
+            var workaround = typeof(VideoView);
             InitializeComponent();
+            //MainPage = new MediaFormsPage();
 
-            MainPage = new MainPage();
+            MainPage = new NavigationPage(new HomePage());
         }
 
         protected override void OnStart()

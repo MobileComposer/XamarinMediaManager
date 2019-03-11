@@ -257,3 +257,6 @@ artifacts/
 
 #linting
 .sonarqube/
+
+# Mfractor
+*.mfractor
